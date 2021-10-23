@@ -1,0 +1,89 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family: sans-serif;
+    color: white;
+}
+/*===================site header====================*/
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header .logo{
+    margin-left: 3%;
+    color: var(--vermelho);
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header  nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff
+}
+
+/*====================Main film======================*/
+.main-film{
+    font-size: 16px;
+    background-image:linear-gradient(rgba(0, 0, 0,.50),rgba(0, 0, 0,.50)100%), url('../img/capa-mad-men-horizontal.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+}
+.main-film .container{
+    margin-left:3% ;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 60%;
+}
+.main-film .titulo{
+    padding-top: 15%;
+    font-size: 45px;
+}
+.main-film .description{
+    margin-bottom: 3%;
+    
+}
+.main-button{
+    background-color: rgba(0, 0, 0,.50);
+    border:none;
+    color:white;
+    padding: 15px 30px;
+    margin: 0 15px 20% 0;
+    cursor: pointer;
+}
+.main-button:hover{
+    background-color: white;
+    border:none;
+    color:black;
+    transition: .6s;
+}
+
+.main-button i {
+    margin-right: 10px;
+}
+    .box img{
+    height:100;
+    width: 100%;
+    display:block;
+}
+
+.carousel{
+    margin-top: 3%;
+}
